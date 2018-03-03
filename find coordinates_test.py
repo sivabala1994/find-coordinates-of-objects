@@ -31,11 +31,10 @@ xtest = X_test.astype('float32')
 xtest /= 255
 """
 load trained model. Make sure that the "my_model1.h5" file is in the same folder as the script.
-If you decide to use the trained model, make sure to put the my_model.h5 in the same folder as the script file 
-and comment the first load _model and uncomment the second load model. This loads the trained model into model1.
+
 """
 model1=load_model('my_model1.h5')
-# model1=load_model('my_model.h5')
+
 
 
 
